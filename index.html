@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Area Start -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                    <div class="container">
+                      <a class="navbar-brand" href="#">
+                        <img src="assets/img/YC.png" alt="">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Protfolio</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Category
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Education</a></li>
+                              <li><a class="dropdown-item" href="#">Imigration</a></li>
+                              <li><a class="dropdown-item" href="#">About Us</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                          </li>
+                        </ul>
+                        <select class="sortall">
+                            <option data-valist="Article">Ban</option>
+                            <option data-valist="Subject">Ind</option>
+                            <option data-valist="University">Pak</option>
+                        </select>
+                            <span></span>
+                        <form class="d-flex search">
+                          <input class="form-control me-2 fixed" type="search" placeholder="Search" aria-label="Search">
+                          <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                        </form>
+                        <i class="fa fa-globe"></i>
+                        <select class="sortall">
+                            <option value="">Bangladesh</option>
+                            <option value="">India</option>
+                            <option value="">Uk</option>
+                        </select>
+                        <div class="hotline">
+                            <i class="fa fa-phone"></i>
+                            <p>+8801715780291</p>
+                        </div>
+                      </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+    <!-- Slider Area Start -->
+    <section class="slider">
+        <div class="container">
+            <div class="row">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="assets/img/66.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/67.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/68.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/69.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="search_box">
+                <div class="row d-flex">
+                    <div class="col-6 mt-3">
+                        <h2 class="text-center search">Search here....</h2>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search here...." aria-label="Username" aria-describedby="basic-addon1">
+                            <span class="input-group-text" id="basic-addon1">
+                                <button class="btn btn-danger" type="submit">Search</button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-6 mt-3">
+                        <h2 class="text-center">Search here....</h2>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search here...." aria-label="Username" aria-describedby="basic-addon1">
+                            <span class="input-group-text" id="basic-addon1">
+                                <button class="btn btn-success" type="submit">Search</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Slider Area End -->
+    <!-- Brand Area Start -->
+    <section class="brand">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="brand_img">
+                        <img src="assets/img/66.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#">Student</a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="brand_img">
+                        <img src="assets/img/66.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#">Teachers</a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="brand_img">
+                        <img src="assets/img/66.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#">hostel</a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="brand_img">
+                        <img src="assets/img/66.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#">College</a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="brand_img">
+                        <img src="assets/img/66.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#">University</a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="brand_img">
+                        <img src="assets/img/66.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <a href="#">Others</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Brand Area End -->
+    <!-- Headlines Area Start -->
+    <section class="headlines">
+        <div class="container">
+            <div class="row">
+                <div class="col-10">
+                    <h2 class="headlines_text">Today's Headlines</h2>
+                </div>
+                <div class="col-2">
+                    <div class="col-2">
+                        <a href="#">More>></a>
+                    </div>
+                </div>
+            </div>
+            <div class="headlines_context">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="date">
+                            <p>12-12</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="heading">
+                            <img src="assets/img/55.jpg" alt="">
+                            <h2>Lorem ipsum dolor.</h2>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="content_area">
+                            <p>The most important change will be to expand the number of subjects that international students can study, adding 22 new fields to STEM OPT. Students in STEM subjects will be allowed to work in the US for three years after graduation instead of one. The current three-year program, known as Optional Practical Training (OPT), is designed to be available to all in STEM fields. The Department of Homeland Security plans to add 22 new eligible degree majors, including data science and financial analytics, effective immediately after the changes.</p>
+                            <a class="btn btn-primary mt-3" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">More..
+                            </a>
+                            <div class="collapse" id="collapseExample1">
+                                <div class="card card-body">
+                                    It was also analyzed that adjusting these visa policies is unlikely to have a major impact on attracting foreign students, and Congress must make more changes, such as increasing the number of visas or expanding visa eligibility. Higher education and business activists, however, welcomed the Biden administration's move as meaningful change that would help attract students, scientists and researchers to the United States and boost the U.S. economy. International student enrollment at U.S. colleges and universities has been declining for the past five years. Many students' ability to live in the U.S. after graduation is often determined by a visa lottery or other criteria, keeping some potential students from trying.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="headlines_context">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="date">
+                            <p>11-12</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="heading">
+                            <img src="assets/img/30.jpg" alt="">
+                            <h2>Lorem ipsum dolor.</h2>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="content_area">
+                            <p>Another change allows students on J-1 visas to work in the U.S. for three years, a less common option for international students. Students on J-1 visas are currently only allowed to work for 18 months. The government is trying to create opportunities for researchers to work for companies on J-1 visas, an alternative to the H-1B visa. While the H-1B visa is the most popular type of visa used by international students to stay in the United States, a limited number are issued each year and always in short supply.
+
+                                Another guideline revises the criteria and simplifies the process for applicants with STEM majors when submitting O-1 visas. This visa, also known as the "Einstein visa", is very difficult to apply for, but there is no limit to the number of visas that can be issued each year.</p>
+                            <a class="btn btn-primary mt-3" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">More..
+                            </a>
+                            <div class="collapse" id="collapseExample">
+                                <div class="card card-body">
+                                    The Biden administration says they are committed to attracting students and professionals in STEM fields from around the world. Such policy changes stand in stark contrast to the Trump administration, which has argued that smoother visa pathways for international students and professionals would increase competition between them and native Americans and could lower their wages .
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Headlines Area End -->
+    <!-- Articles Area Start -->
+    <section class="article">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-2">
+                    <h2>Articles</h2>
+                </div>
+                <div class="col-8">
+                    <div class="button">
+                        <div class="controls">
+                            <button type="button" class="control" data-filter="all">All</button>
+                            <button type="button" class="control" data-filter=".green">Student</button>
+                            <button type="button" class="control" data-filter=".blue">Teachers</button>
+                            <button type="button" class="control" data-filter=".pink">Collage</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <a href="#">More>></a>
+                </div>
+            </div>
+            <div class="container mt-3" data-ref="mixitup-container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="mix green" data-ref="mixitup-target">
+                            <div class="row">
+                                <div class="col-3 mt-3">
+                                    <div class="articles_img">
+                                        <img src="assets/img/66.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="articles_content">
+                                        <span>Our Teachers.</span>
+                                        <p>Every student of Zihuo Education has its own exclusive counselor (SC) and counselor (AC).</p>
+                                        <h2 class="date">21-02-2023</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 mt-3">
+                        <div class="mix pink" data-ref="mixitup-target">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="articles_img">
+                                        <img src="assets/img/66.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="articles_content">
+                                        <span>Our Class Room</span>
+                                        <p>Zihuo Education's American counselors (SC) are all local services, graduated </p>
+                                        <h2 class="date">21-02-2023</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 mt-3">
+                        <div class="mix blue" data-ref="mixitup-target">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="articles_img">
+                                        <img src="assets/img/66.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="articles_content">
+                                        <span>Our Hostel</span>
+                                        <p> the most professional application planning, strategy formulation</p>
+                                        <h2 class="date">21-02-2023</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 mt-3">
+                        <div class="mix pink" data-ref="mixitup-target">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="articles_img">
+                                        <img src="assets/img/66.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="articles_content">
+                                        <span>Our Imigration</span>
+                                        <p>Zihuo Education's Chinese counselors (AC) are mainly returnees, responsible</p>
+                                        <h2 class="date">21-02-2023</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 mt-3">
+                        <div class="mix green" data-ref="mixitup-target">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="articles_img">
+                                        <img src="assets/img/66.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="articles_content">
+                                        <span>Our Program</span>
+                                        <p>At the same time, Zihuo Education has an SD department (Strategic Development Department).</p>
+                                        <h2 class="date">21-02-2023</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 mt-3">
+                        <div class="mix blue" data-ref="mixitup-target">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="articles_img">
+                                        <img src="assets/img/66.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="articles_content">
+                                        <span>Our Tour</span>
+                                        <p>The SD department cooperates with the SC and AC consultant teams to "guide" and "inspire" students from</p>
+                                        <h2 class="date">21-02-2023</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 mt-3">
+                        <div class="mix pink" data-ref="mixitup-target">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="articles_img">
+                                        <img src="assets/img/66.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="articles_content">
+                                        <span>Our Students</span>
+                                        <p> Zihuo Education Haas team's service concept based on "whole person education" will help every dream sail.</p>
+                                        <h2 class="date">21-02-2023</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 mt-3">
+                        <div class="mix blue" data-ref="mixitup-target">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="articles_img">
+                                        <img src="assets/img/66.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="articles_content">
+                                        <span>Our Student Bus</span>
+                                        <p>Following up and guiding students Complete the application tasks and give feedback to parents in real time.</p>
+                                        <h2 class="date">21-02-2023</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Articles Area End -->
+    <!-- Our Advantages Area Start -->
+        <section class="advantages">
+            <div class="container">
+                <div class="row">
+                    <h2>Our Advantages</h2>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="counter">
+                            <span>30K</span>
+                        </div>
+                        <div class="text">
+                            <p>Students</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="counter">
+                            <span>25</span>
+                        </div>
+                        <div class="text">
+                            <p>Teachers</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="counter">
+                            <span>7k</span>
+                        </div>
+                        <div class="text">
+                            <p>Student Hostel</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="counter">
+                            <span>82</span>
+                        </div>
+                        <div class="text">
+                            <p>University</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="counter">
+                            <span>3K</span>
+                        </div>
+                        <div class="text">
+                            <p>College</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="counter">
+                            <span>23</span>
+                        </div>
+                        <div class="text">
+                            <p>Others</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Our Advantages Area End -->
+    <!-- Service Process Area Start -->
+    <section class="service">
+        <div class="container">
+            <div class="row">
+                <h2>Service Process</h2>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="service_heading">
+                        <h1>Study abroad destination</h1>
+                    </div>
+                    <div class="service_content">
+                        <p> Zihuo Education's on-the-job tutors are all graduated from famous American schools and have many years of experience in local life in the United States, so they can better guide students in school selection and application. In addition to academic application, it can also give students more life and ideological help, so that students and parents can go to the United States with peace of mind and graduate smoothly.</p>
+                    </div>
+                    <div class="service_image">
+                        <img src="assets/img/66.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="service_heading">
+                        <h1>Careful planning</h1>
+                    </div>
+                    <div class="service_content">
+                        <p>    As we all know, the United States is a world-renowned education power, with many famous schools located in different states. So how do you choose the right school for your application? There are several factors for reference. In addition to the school ranking and professional ranking, the geographical location of the school, living environment, price level, employment situation, etc. should also be considered. Only by fully</p>
+                    </div>
+                    <div class="service_image">
+                        <img src="assets/img/66.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="service_heading">
+                        <h1>American Prestigious School Entrance Team</h1>
+                    </div>
+                    <div class="service_content">
+                        <p>Has more than 20 years of document guidance experience. American consultants are all graduated from top universities such as Yale, Berkeley, Chicago, Cornell, etc. Most of the Chinese college entrance supervisors are from teachers, or have overseas study experience, with an average of more than 6 years of experience in American college entrance guidance. college entrance supervisors are from teachers</p>
+                    </div>
+                    <div class="service_image">
+                        <img src="assets/img/66.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="service_heading">
+                        <h1>Super high teacher-student ratio</h1>
+                    </div>
+                    <div class="service_content">
+                        <p>In order to ensure the quality of service, the average number of students of Zihuo education consultant teachers does not exceed 10, and the interview is accepted. The super-high teacher-student ratio ensures that every Zihuo education consultant can have more time and energy to understand the students, accompany the growth of the students, and provide more targeted suggestions.</p>
+                    </div>
+                    <div class="service_image">
+                        <img src="assets/img/66.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="service_heading">
+                        <h1>one-to-one planning</h1>
+                    </div>
+                    <div class="service_content">
+                        <p>Refuse assembly line services, use regular face-to-face in-depth interviews with students, cooperate with a series of professional tools such as Discovery and CPP assessment, and tailor-made application plans for each student. Whether it's application profile, standardized test planning, or competition planning, every student is unique. tailor-made application plans for each student.</p>
+                    </div>
+                    <div class="service_image">
+                        <img src="assets/img/66.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="service_heading">
+                        <h1>Long-term heuristic companionship</h1>
+                    </div>
+                    <div class="service_content">
+                        <p>From environmental protection, women's rights to the Sino-US trade war, no matter what topics you are concerned about, Zihuo Education consultants are willing to discuss with you. Zihuo Education also has its own "Socratic Method Questions" question bank waiting for you to challenge. Zihuo Education's unique EnLIFEnment courses include a large number of exclusive courses.</p>
+                    </div>
+                    <div class="service_image">
+                        <img src="assets/img/66.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service Process Area End -->
+    <!-- Letter Of Commendation Area Start -->
+    <section class="commendation">
+        <div class="container">
+            <div class="row">
+                <h2>Letter Of Commendation</h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                    </div>
+                    <div class="carousel-inner mt-3">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="row">
+                                        <div class="col-1">
+                                            <div class="slider_img_one">
+                                                <img src="assets/img/home1.png" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="slider_text">
+                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci culpa pariatur dolores dolorem? Assumenda vero quas a magni unde harum sit iste veniam? Dignissimos, tempore sunt. Illum labore.</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-1">
+                                            <div class="slider_image_two">
+                                                <img src="assets/img/home.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="slider_image_three">
+                                                <img src="assets/img/service/01.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="about">
+                                                <h1>About</h1>
+                                                <h1>Name</h1>
+                                                <h1>College</h1>
+                                                <h1>Location</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="slider_image_four">
+                                        <img src="assets/img/slider/slider3.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="row">
+                                        <div class="col-1">
+                                            <div class="slider_img_one">
+                                                <img src="assets/img/home1.png" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="slider_text">
+                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci culpa pariatur dolores dolorem? Assumenda vero quas a magni unde harum sit iste veniam? Dignissimos, tempore sunt. Illum labore.</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-1">
+                                            <div class="slider_image_two">
+                                                <img src="assets/img/home.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="slider_image_three">
+                                                <img src="assets/img/service/02.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="about">
+                                                <h1>About</h1>
+                                                <h1>Name</h1>
+                                                <h1>College</h1>
+                                                <h1>Location</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="slider_image_four">
+                                        <img src="assets/img/slider/slider3.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Letter Of Commendation Area End -->
+    <!-- Our Partner Area Start  -->
+    <section class="partner">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-10">
+                    <h2>Some of Our Partner</h2>
+                </div>
+                <div class="col-2">
+                    <a href="#">More>></a>
+                </div>
+            </div>
+            <div class="partner_image">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="assets/img/partner/p1.jpg
+                        " alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/img/partner/p2.jpg
+                        " alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/img/partner/p3.jpg
+                        " alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/img/partner/p4.jpg
+                        " alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/img/partner/p2.jpg
+                        " alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/img/partner/p2.jpg
+                        " alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/img/partner/p2.jpg
+                        " alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/img/partner/p2.jpg
+                        " alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/img/partner/p2.jpg
+                        " alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/img/partner/p2.jpg
+                        " alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="assets/img/partner/p2.jpg
+                        " alt="">
+                    </div>
+        
+                    <div class="col-2">
+                        <img src="assets/img/partner/p2.jpg
+                        " alt="">
+                    </div>
+                </div>
+                <div class="partner_school">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="one">
+                                <a href="#">
+                                    <p>More Details</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="one">
+                                <a href="#">
+                                    <p>More Details</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="one">
+                                <a href="#">
+                                    <p>More Details</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="one">
+                                <a href="#">
+                                    <p>More Details</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Partner Area End  -->
+    <!-- Footer Area Start -->
+    <section class="footer">
+        <div class="container mt-100">
+            <div class="row">
+                <div class="col-4">
+                    <div class="menu mt-10">
+                        <ul>
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Protfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">Category</a>
+                            </li>
+                            <li>
+                                <a href="#">Education</a>
+                            </li>
+                            <li>
+                                <a href="#">Imigration</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                        <div class="col-8">
+                            <div class="img">
+                                <img src="assets/img/payment-logo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="contract">
+                        <h2>Contact Us</h2>
+                        <div class="text_area">
+                            <p><i class="fa fa-phone"></i> : +8801715780291</p>
+                            <p><i class="fa fa-home"></i>: 75/A-KB Tower, DB Road, Mymensingh</p>
+                            <p><i class="fa-solid fa-envelope"></i> : pitechnobd@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="from">
+                        <h2>Contract Form</h2>
+                        <form action="" method="post">
+                            <div class="mb-3">
+                                <label class="form-label">Your Name</label>
+                                <input type="text" class="form-control" placeholder="Enter Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Your E-mail</label>
+                                <input type="email" class="form-control" placeholder="Enter Your E-mail" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Your Message</label>
+                                <textarea class="form-control" placeholder="Your Message" required></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <button type="submet" value="Send" class="btn btn-primary">SEND</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="coppy_right">
+                        <p class="text-center">&copy; 2023. Made with : <a href="#">www.pitechnologybd.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Area End -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script>
+        var containerEl = document.querySelector('[data-ref~="mixitup-container"]');
+
+        var mixer = mixitup(containerEl, {
+            selectors: {
+                target: '[data-ref~="mixitup-target"]'
+            }
+        });
+    </script>
+</body>
+</html>
